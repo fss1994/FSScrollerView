@@ -21,10 +21,9 @@
     CGRect viewSize;
     UIScrollView *scrollView;
     NSArray *imageArray;
-    NSArray *titleArray;
     UIPageControl *pageControl;
     int currentPageIndex;
-    UILabel *noteTitle;
+
 }
 
 @property (strong, nonatomic) NSTimer *timer;
