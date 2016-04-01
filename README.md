@@ -1,7 +1,7 @@
 # FSScrollerView
 
 
-##1 一步生成
+##1 一步生成(FSScrollView.h+FSScrollView.m导入)
     FSScrollView *scroll = [[FSScrollView alloc] initWithFrameRect:_fscrollView.bounds ImageArray:array];
     scroll.delegate = self;
     
